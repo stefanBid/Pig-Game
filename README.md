@@ -33,8 +33,7 @@ Il gioco termina quando uno dei due giocatori raggiunge per prima quota 100 esat
 |:-- | :-------------------------- | :------------------------------ | :--- | :--- |
 | 1  | Dice differet to 1          | Increment current score         |  ✅  |  ✅  |
 | 2  | Dice equals to 1            | Change Player                   |  ⛔️  |  ⛔️  |
-             |
-
+             
 ---
 
 # Gallery
