@@ -3,13 +3,13 @@
 
 ## Introduction
 
-This is a small project, which implements through the logic of java scrip a game which consists nel lanciare una serie di dadi ed incrementare il proprio puntegggio al fine di raggiungere la soglia esatta di vittoria.
+This game consists in throwing a series of dice and boost your score in order to reach/achieve the exact threshold of victory
 
 ---
 
 ## Behavior
 
-<p align= "center"><img src ="https://i.ibb.co/48mndj7/start.png" alt="Guess My Number" ></p>
+<p align= "center"><img src ="https://i.imgur.com/IhnA5c5.png" alt="Pig Game" ></p>
 
 Il gioco consiste in una battaglia 1 vs 1 tra due giocatori settati all'inizio di ogni nuova partita. Il giocatore attivo incominca la partita lanciando un dato, tale punteggio può essere salvato come score effettivo o può essere incrementato lanciandolo nuvamente. Ma attenzione a sfidare troppo la sorte se dal ancio esce 1 il giocatore perde tutti i punti accumulati che non sono stati salvati e passa il turno al suo avversario.
 
@@ -38,21 +38,15 @@ Il gioco termina quando uno dei due giocatori raggiunge per prima quota 100 esat
 
 # Gallery
 
-## When you win
+## Set the game players
 
-<img src="https://i.ibb.co/cLn93mk/win1.png" alt="Guess My Number" >
+<img src="https://i.imgur.com/hos8mUi.png" alt="Pig Game" >
 
-## When you win at first
+## When a player win
 
-<img src="https://i.ibb.co/PD9SJyq/win.png" alt="Guess My Number" >
+<img src="https://i.imgur.com/N5j98Ol.png" alt="Pig Game" >
 
-## Level Bonus
 
-<img src="https://i.ibb.co/kxq15Ms/bonus.png" alt="Guess My Number" >
-
-## When you lose
-
-<img src="https://i.ibb.co/LN6fw7C/lost.png" alt="Guess My Number" >
 
 
 
