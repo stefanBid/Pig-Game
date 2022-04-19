@@ -6,7 +6,7 @@ let start = false;
 let controlNum1 = 0;
 
 const scores = [0, 0];
-const WIN_SCORE = 10;
+const WIN_SCORE = 100;
 let winGame = false;
 
 //Selecting section
@@ -35,13 +35,13 @@ btnRoll.addEventListener("click", function () {
   //Only if there isn't a winnner
   if (!winGame) {
     // 1. Generating a random dice roll
-    let secretDice = Math.trunc(Math.random() * 6) + 1;
-    if (secretDice === 1) {
+    let secretDice = Math.trunc(Math.random() * 7);
+    if (secretDice === 0) {
       controlNum1 = controlNum1 + 1;
       if (controlNum1 === 2) {
         while (controlNum1 === 2) {
-          secretDice = Math.trunc(Math.random() * 6) + 1;
-          if (secretDice !== 1) {
+          secretDice = Math.trunc(Math.random() * 7);
+          if (secretDice !== 0) {
             controlNum1 = 0;
           }
         }
@@ -54,7 +54,7 @@ btnRoll.addEventListener("click", function () {
     diceEl.classList.remove("hidden");
 
     //2.1. set the animation of dice
-    if (secretDice !== 1) {
+    if (secretDice !== 0) {
       diceEl.src = `dicePhoto/dice-${secretDice}.png`;
       diceEl.classList.add("dice--animation");
       document.querySelector(".dice--animation").style.borderColor = "#333";
@@ -72,7 +72,7 @@ btnRoll.addEventListener("click", function () {
 
     // 3. check for rolled 1: if is true switch to next palyer
 
-    if (secretDice !== 1) {
+    if (secretDice !== 0) {
       currentScore = currentScore + secretDice;
       document.querySelector(`#current--${activePlayer}`).textContent =
         currentScore;
